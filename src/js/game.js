@@ -29,7 +29,7 @@ const createKeyboard = () => {
 
     // создали элемент - div, присвоилиему class и id
     const keyboard = document.createElement('div');
-    keyboard.classList.add('keybord')
+    keyboard.classList.add('keyboard')
     keyboard.id = 'keyboard'
 
     const keyboardHTML = KEYBOARD_LETTERS.reduce((acc, curr) => {
